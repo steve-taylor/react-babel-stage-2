@@ -282,6 +282,8 @@ export default RemoteRecord;
 
 ### `<DropdownMenuGroup />`
 
+---
+
 ```js
 import React from 'react';
 import propTypes from 'prop-types';
