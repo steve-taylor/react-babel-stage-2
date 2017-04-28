@@ -6,46 +6,7 @@
 
 ## Class properties
 
----
-
-```js
-class MyComponent extends React.Component {
-    constructor(props) {
-        this.state = {
-            photoVisible: this.props.initialPhotoVisible
-        };
-
-        this.togglePhotoVisible = this.togglePhotoVisible.bind(this);
-    }
-
-    togglePhotoVisible() {
-        this.setState({
-            photoVisible: !this.state.photoVisible;
-        });
-    };
-
-    render() {
-        return (
-            <div>
-                <button onClick={this.togglePhotoVisible}>
-                    {this.state.photoVisible ? 'Hide' : 'Show'} photo
-                </button>
-                {this.state.photoVisible && <img src={this.props.photoUrl}} />}
-            </div>
-        );
-    }
-}
-
-MyComponent.propTypes = {
-    photoUrl: PropTypes.string,
-    initialButtonVisible: PropTypes.bool
-}
-
-MyComponent.defaultProps = {
-    photoUrl: '',
-    initialButtonVisible: true
-};
-```
+---?gist=5b7e1ed40926ff24459c3deefcf25587
 
 ---
 
@@ -240,6 +201,6 @@ method, so this is usually not a problem.
 
 ## Functional components
 
----
+--
 
 ## Babel stage 3 preset
