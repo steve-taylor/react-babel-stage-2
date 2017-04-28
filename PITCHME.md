@@ -97,7 +97,7 @@ render() {
 
 ### Manual option
 
-But this is quite verbose.
+This doesn't bleed unnecessary props into the child, but it is **verbose**.
 
 ---
 
@@ -169,6 +169,6 @@ method, so this is usually not a problem.
 
 ## Functional components
 
---
+---
 
 ## Babel stage 3 preset
