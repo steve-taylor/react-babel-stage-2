@@ -470,7 +470,7 @@ export default class DropdownMenuGroup extends React.PureComponent {
 
 ---
 
-```js
+```jsx
 import React from 'react';
 import propTypes from 'prop-types';
 import noop from 'lodash/noop';
@@ -557,7 +557,7 @@ Use functional components to separate view from logic
 
 ---
 
-```js
+```jsx
 import React from 'react';
 import propTypes from 'prop-types';
 import noop from 'lodash/noop';
