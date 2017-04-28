@@ -240,6 +240,6 @@ method, so this is usually not a problem.
 
 ## Functional components
 
---
+---
 
 ## Babel stage 3 preset
