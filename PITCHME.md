@@ -111,7 +111,10 @@ Use Lodash's `omit` function to use all except a specified list of props.
 
 ```js
 render() {
-    const props = omit(this.props, ['reveal', 'onClickToggleReveal']);
+    const props = omit(
+        this.props,
+        ['reveal', 'onClickToggleReveal']
+    );
 
     return (
         <div>
