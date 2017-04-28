@@ -21,7 +21,7 @@ Pros:
 
 Cons:
 
-* You might forget to declare event handlers as lambda functions <!-- .element: class="fragment" -->
+* You might forget to declare event handlers as lambda functions
 
 ---
 
