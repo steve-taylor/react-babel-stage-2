@@ -6,44 +6,9 @@
 
 ## Class properties
 
----?gist=5b7e1ed40926ff24459c3deefcf25587
++++?gist=5b7e1ed40926ff24459c3deefcf25587
 
----
-
-```js
-class MyComponent extends React.Component {
-    static propTypes = {
-        photoUrl: PropTypes.string,
-        initialButtonVisible: PropTypes.bool
-    };
-
-    static defaultProps = {
-        photoUrl: '',
-        initialButtonVisible: true
-    };
-
-    state = {
-        photoVisible: this.props.initialPhotoVisible
-    };
-
-    togglePhotoVisible = () => {
-        this.setState({
-            photoVisible: !this.state.photoVisible;
-        });
-    };
-
-    render() {
-        return (
-            <div>
-                <button onClick={this.togglePhotoVisible}>
-                    {this.state.photoVisible ? 'Hide' : 'Show'} photo
-                </button>
-                {this.state.photoVisible && <img src={this.props.photoUrl}} />}
-            </div>
-        );
-    }
-}
-```
++++?gist=351e58764782d29ea778d56e32b554de
 
 ---
 
