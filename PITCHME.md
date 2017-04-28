@@ -286,7 +286,7 @@ export default RemoteRecord;
 
 ---
 
-```jsx
+```js
 import React from 'react';
 import propTypes from 'prop-types';
 import noop from 'lodash/noop';
@@ -380,7 +380,7 @@ with `stage-2`
 
 ---
 
-```jsx
+```js
 import React from 'react';
 import propTypes from 'prop-types';
 import noop from 'lodash/noop';
@@ -472,7 +472,7 @@ export default class DropdownMenuGroup extends React.PureComponent {
 
 ---
 
-```jsx
+```js
 import React from 'react';
 import propTypes from 'prop-types';
 import noop from 'lodash/noop';
@@ -559,7 +559,7 @@ Use functional components to separate view from logic
 
 ---
 
-```jsx
+```js
 import React from 'react';
 import propTypes from 'prop-types';
 import noop from 'lodash/noop';
