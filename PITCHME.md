@@ -6,9 +6,9 @@
 
 ## Class properties
 
-+++?gist=5b7e1ed40926ff24459c3deefcf25587
+---?gist=5b7e1ed40926ff24459c3deefcf25587
 
-+++?gist=351e58764782d29ea778d56e32b554de
+---?gist=351e58764782d29ea778d56e32b554de
 
 ---
 
