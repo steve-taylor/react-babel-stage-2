@@ -14,12 +14,12 @@
 
 Pros:
 
-* Move `propTypes` and `defaultProps` into the component class <!-- .element: class="fragment" -->
-* Initialise instance variables at the class level <!-- .element: class="fragment" -->
-* No more `this.fn = this.fn.bind(this);` <!-- .element: class="fragment" -->
-* No need for a constructor in most cases <!-- .element: class="fragment" -->
+* Move `propTypes` and `defaultProps` into the component class
+* Initialise instance variables at the class level
+* No more `this.fn = this.fn.bind(this);`
+* No need for a constructor in most cases
 
-Cons: <!-- .element: class="fragment" -->
+Cons:
 
 * You might forget to declare event handlers as lambda functions <!-- .element: class="fragment" -->
 
