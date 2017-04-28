@@ -136,7 +136,7 @@ into the child.
 
 ---
 
-### Object rest spread option (stage-3 preset)
+### Object rest spread option (stage-2 preset)
 
 ```js
 render() {
@@ -155,7 +155,7 @@ render() {
 
 ---
 
-### Object rest spread option (stage-3 preset)
+### Object rest spread option (stage-2 preset)
 
 This is even better, as it destructures all the omitted props into the local
 scope so we don't have to prefix them with `this.props`.
@@ -276,6 +276,8 @@ RemoteRecord.propTypes = {
 export default RemoteRecord;
 ```
 
+---
+
 ## Bringing it all together (and some recommendations)
 
 ---
@@ -284,7 +286,7 @@ export default RemoteRecord;
 
 ---
 
-```js
+```jsx
 import React from 'react';
 import propTypes from 'prop-types';
 import noop from 'lodash/noop';
@@ -378,7 +380,7 @@ with `stage-2`
 
 ---
 
-```js
+```jsx
 import React from 'react';
 import propTypes from 'prop-types';
 import noop from 'lodash/noop';
